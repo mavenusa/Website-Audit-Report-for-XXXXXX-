@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SEO & AGEO Audit Center</title>
+<meta name="description" content="Shareable SEO, local SEO, AEO and GEO audit reports.">
+<style>
+:root{
+  --bg:#f4f7fb;--card:#fff;--ink:#172033;--muted:#667085;--navy:#143c63;
+  --blue:#1e6ca8;--gold:#d8aa3c;--line:#dde5ef;--red:#a83232;--green:#227a52;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--blue)}
+.hero{background:linear-gradient(135deg,#102b48,#1d5f95);color:#fff;padding:68px 24px}
+.wrap{max-width:1160px;margin:auto}
+h1{font-size:clamp(2.2rem,5vw,4.2rem);line-height:1.05;margin:15px 0}
+.hero p{max-width:820px;font-size:1.1rem;color:#eaf3fa}
+.badge{display:inline-block;border:1px solid rgba(255,255,255,.3);padding:7px 11px;border-radius:999px;text-transform:uppercase;letter-spacing:.08em;font-size:.78rem}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.meta span{padding:8px 11px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);border-radius:8px}
+nav{position:sticky;top:0;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);z-index:10}
+nav .wrap{display:flex;gap:18px;overflow:auto;padding:12px 18px}
+nav a{white-space:nowrap;text-decoration:none;color:var(--navy);font-weight:bold;font-size:.9rem}
+main{padding:28px 18px 70px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px;margin:22px 0;box-shadow:0 10px 28px rgba(20,50,90,.07)}
+h2{margin:0 0 14px;color:var(--navy);font-size:1.75rem}
+h3{color:var(--navy);margin-top:24px}
+.lead{font-size:1.08rem;color:#344054}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:13px;padding:20px;background:#fbfdff}
+.card strong{display:block;font-size:1.45rem;color:var(--navy)}
+.audit-card{display:flex;flex-direction:column;justify-content:space-between;min-height:310px}
+.button{display:inline-block;text-decoration:none;background:var(--navy);color:white;padding:11px 16px;border-radius:9px;font-weight:bold}
+.secondary{background:#fff;color:var(--navy);border:1px solid var(--navy)}
+.grade{width:104px;height:104px;border-radius:50%;display:grid;place-items:center;background:#fff2ce;border:8px solid #e7b94d;color:#734700;font-size:2rem;font-weight:900}
+.scoreline{display:flex;align-items:center;gap:16px}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{padding:12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f6f8fb;color:var(--navy)}
+.note{padding:16px 18px;border-radius:12px;background:#fff8e8;border:1px solid #ecd79d;color:#5f4817}
+footer{text-align:center;padding:25px;color:var(--muted);font-size:.9rem}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.scoreline{align-items:flex-start;flex-direction:column}section{padding:21px}}
+@media print{nav{display:none}body{background:#fff}section{box-shadow:none}.hero{padding:35px 20px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<span class="badge">SEO • Local SEO • AEO • GEO</span>
+<h1>SEO & AGEO Audit Center</h1>
+<p>A shareable website containing detailed technical SEO, local SEO, Answer Engine Optimization and Generative Engine Optimization reports.</p>
+<div class="meta"><span>2 complete audits</span><span>Mobile-friendly</span><span>Print-ready</span><span>Shareable static site</span></div>
+</div></header>
+<nav><div class="wrap">
+<a href="index.html">Home</a>
+<a href="level3guardian.html">Level 3 Guardian</a>
+<a href="goodguyswithguns.html">Good Guys With Guns</a>
+</div></nav>
+<main class="wrap">
+<section>
+<h2>Available Audit Reports</h2>
+<p class="lead">Select a website below to open its complete audit.</p>
+<div class="grid">
+<div class="card audit-card">
+<div>
+<h3>Level 3 Guardian</h3>
+<div class="scoreline"><div class="grade">F</div><div><strong>34/100</strong><span>Critical accessibility and indexability concerns</span></div></div>
+<p>Detailed audit covering technical accessibility, local SEO, E-E-A-T, AEO, GEO, structured data and a 90-day remediation plan.</p>
+</div>
+<div><a class="button" href="level3guardian.html">Open Audit</a></div>
+</div>
+<div class="card audit-card">
+<div>
+<h3>Good Guys With Guns, LLC</h3>
+<div class="scoreline"><div class="grade">D+</div><div><strong>61/100</strong><span>Functional foundation with major authority gaps</span></div></div>
+<p>Detailed audit covering crawlability, on-page SEO, local visibility, content quality, AEO, GEO, conversion readiness and recommendations.</p>
+</div>
+<div><a class="button" href="goodguyswithguns.html">Open Audit</a></div>
+</div>
+</div>
+</section>
+<section>
+<h2>How to Share This Site</h2>
+<p>This package is a complete static website. Upload the unzipped folder to any web host, GitHub Pages, Netlify, Cloudflare Pages or your existing hosting account. The homepage is <code>index.html</code>.</p>
+<div class="note">For immediate sharing without hosting, send the ZIP file. The recipient can unzip it and open <code>index.html</code> in a browser.</div>
+</section>
+</main>
+<footer>SEO & AGEO Audit Center</footer>
+</body></html>
