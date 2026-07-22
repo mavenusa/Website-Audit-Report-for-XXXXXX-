@@ -1,17 +1,21 @@
-# Good Guys With Guns, LLC — SEO & AGEO Audit Site
+# Level 3 Guardian — SEO, AEO and GEO Audit Site
 
-This repository contains a shareable static website presenting the SEO and AGEO audit for **www.goodguyswithgunsllc.com**.
+This repository contains the shareable website and full audit report for **level3guardian.com**.
 
-- Overall score: **61/100**
-- Final grade: **D+**
-- Main website file: `index.html`
+- Overall score: **53/100**
+- Final grade: **D**
+- Shareable website: `index.html`
+- Full detailed report: `LEVEL3GUARDIAN_SEO_AEO_AUDIT.md`
+- Audit date: **July 21, 2026**
 
-## Publish with GitHub Pages
+## GitHub Pages
 
-1. Open this repository's **Settings**.
+The repository is designed to publish as a static GitHub Pages website.
+
+1. Open **Settings** in this repository.
 2. Select **Pages**.
-3. Under **Build and deployment**, choose **GitHub Actions**.
-4. Open the **Actions** tab and allow the included Pages workflow to complete.
-5. GitHub will display the public website URL after deployment.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the `main` branch and `/ (root)` folder.
+5. Save the settings.
 
-The site is responsive, print-friendly, and requires no database or server-side code.
+The report covers technical SEO, local SEO, on-page content, AEO, GEO, conversion readiness, prioritized recommendations and the final grade.
